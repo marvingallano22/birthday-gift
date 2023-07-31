@@ -1,0 +1,139 @@
+
+body{
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background: linear-gradient(skyblue, lightpink);
+    color: #ffffff;
+    
+   
+}
+
+h1, h2, h3, h4, p{
+    text-shadow: 5px 5px 5px black;
+}
+
+#bday-age {
+    background-color: pink;
+    padding: 4px 10px;
+    border-radius: 2px;
+}
+
+#bday-date{
+    background-color: pink;
+    padding: 4px 10px;
+    border-radius: 2px;
+    margin: 0 0 10px 0;
+}
+
+#her-img{
+    border-radius: 50%;
+    width: 150px;
+    border: 5px solid pink;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift-img{
+    background-image: url(img/gift.jpg);
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px auto;
+    background-size: cover;
+}
+
+.gift-img:hover{
+    background-image: url(img/happy.gif);
+}
+
+.hot-img{
+    background-image: url(img/gift.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.hot-img:hover{
+    background-image: url(img/hot.gif);
+}
+
+.girl-img{ 
+    background-image: url(img/gift.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin: 10px auto;
+
+}
+
+.girl-img:hover{
+    background-image: url(img/girl.gif);
+}
+
+.badass-img{
+    background-image: url(img/gift.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.badass-img:hover{
+    background-image: url(img/badass.gif);
+}
+
+.cheers-img{
+    height: 200px;
+    background-image: url(img/gift.jpg);
+    width: 400px;
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.cheers-img:hover{
+    background-image: url(img/cheers.gif);
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-title{
+    margin-bottom: 10px;
+}
+
+.gift-hint{
+    margin-top: 0px;
+}
+
+#footer{
+    width: 400px;
+    margin: 40px auto 20px;
+    font-style: italic;
+}
+
+a{
+    color : white;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: violet;
+    transition: 0.5s ease;
+}
